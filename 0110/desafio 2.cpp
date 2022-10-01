@@ -9,11 +9,11 @@
 
 int main () {
 	
-int  i, j=10;
+char x, y= 'a';
 	
-for ( i= 1; i <= 10;  i++){
-printf ("%d - %d \n", i, j);
-j --;
+for ( x= 'A'; x <= 'Z';  x++){
+printf ("%c%c \n", x, y);
+y +=1;
 }
 	
 return 0;	
