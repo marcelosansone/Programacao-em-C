@@ -6,11 +6,10 @@ int main (){
 	int i,j;
 	
 	for (i = 1; i <= 10; i++){
-		for (j=2 ; j<=4 ; i++){
-		printf("%d x %d = %d\n\t",j,i,j*i);
-		
+		for (j=1 ; j<=10 ; j++){
+		printf("%d x %d = %d\n",j,i,j*i);
 		}
-		
+		printf("\n");
 	}
 	return 0;
 }
