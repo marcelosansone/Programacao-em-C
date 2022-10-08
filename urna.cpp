@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-//Declaração das variáveis globais muda tudo pra float
+//Declaraï¿½ï¿½o das variï¿½veis globais muda tudo pra float
 int voto, c1, c2, c3, c4; 
 float tnulo, tbranco, total; 
 float nulo, branco;	
@@ -48,7 +48,8 @@ tbranco = 0;
 		}
 		total++;
     }
-    total=total-1;
+    printf("Total %f", total);
+	total=total-1;
     printf("-------------------------\n");
     printf("Resultados:\n");
     printf("Candidato 1: %d Votos\n", c1);
