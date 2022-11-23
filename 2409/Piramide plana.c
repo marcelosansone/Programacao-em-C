@@ -1,9 +1,9 @@
-//Um rapaz e o seu pai, um programador de computador, estï¿½o a brincar com blocos de madeira.
-//Eles estï¿½o a construir uma pirï¿½mide plana.
-//A pirï¿½mide ï¿½ empilhada de acordo com um princï¿½pio simples: cada camada inferior contï¿½m mais um bloco do que a camada superior.
-//Escrever um programa que leia o nï¿½mero de blocos que os construtores tï¿½m, e que produza a altura da pirï¿½mide que pode ser construï¿½da utilizando estes blocos.
-//A altura ï¿½ medida pelo nï¿½mero de camadas completamente preenchidas.
-//Se os construtores nï¿½o tiverem um nï¿½mero suficiente de blocos e nï¿½o conseguirem completar a camada seguinte, terminam o seu trabalho imediatamente.
+//Um rapaz e o seu pai, um programador de computador, estão a brincar com blocos de madeira.
+//Eles estão a construir uma pirâmide plana.
+//A pirâmide é empilhada de acordo com um princípio simples: cada camada inferior contém mais um bloco do que a camada superior.
+//Escrever um programa que leia o número de blocos que os construtores têm, e que produza a altura da pirâmide que pode ser construída utilizando estes blocos.
+//A altura é medida pelo número de camadas completamente preenchidas.
+//Se os construtores não tiverem um número suficiente de blocos e não conseguirem completar a camada seguinte, terminam o seu trabalho imediatamente.
 
 # include <stdio.h>
 
@@ -13,13 +13,20 @@ int main (){
 	linha_inferior = 1;
 	printf ("Qual o numero de blocos ? ");
 	scanf("%d", &blocos);
-		while (linha_inferior < blocos){
-			altura += 1;
-			blocos -= linha_inferior;
-			linha_inferior += 1;
-		}
-	printf ("Altura %d", altura);
+	
+	while (linha_inferior < blocos){
+	
+	
+		altura += 1;
+		blocos -= linha_inferior;
+		linha_inferior += 1;
+		
+	}
+
+printf ("Altura %d", altura);
+
 return 0;
+
 }
 
 	

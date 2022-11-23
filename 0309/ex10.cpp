@@ -4,11 +4,11 @@ int main (){
 	setlocale (LC_ALL, "portuguese");
 	int n,menor,maior;
 	n=0;
-	printf("Digite um nÃºmero inteiro:");
+	printf("Digite um número inteiro:");
 	scanf("%i", &n);
 	menor=n-1;
 	maior=n+1;
-	printf("O nÃºmero digitado foi %i, seu nÃºmero antecessor Ã© %i e seu sucessor Ã© %i",n,menor,maior);
+	printf("O número digitado foi %i, seu número antecessor é %i e seu sucessor é %i",n,menor,maior);
 	return 0;
 	
 }
